@@ -1,0 +1,18 @@
+/*	pid_t pid = fork();
+
+	if(pid==0){
+		printf("in child");
+		execlp("/home/ekincan/Desktop/week4/compile.sh","compile",NULL);			
+		
+	}else{
+		printf("in parent");
+		wait(NULL);	
+	}
+
+*/
+	
+	//system("chmod u+x compile.sh");
+	//system("/home/ekincan/Desktop/week4/compile.sh");	
+
+	
+

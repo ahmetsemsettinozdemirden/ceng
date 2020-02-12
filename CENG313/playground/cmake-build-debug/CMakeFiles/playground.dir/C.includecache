@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/sems/CLionProjects/playground/linkedList.h
+stdio.h
+-
+stdlib.h
+-
+
+/Users/sems/CLionProjects/playground/main.c
+stdio.h
+-
+taskQueue.h
+/Users/sems/CLionProjects/playground/taskQueue.h
+linkedList.h
+/Users/sems/CLionProjects/playground/linkedList.h
+
+/Users/sems/CLionProjects/playground/taskQueue.h
+

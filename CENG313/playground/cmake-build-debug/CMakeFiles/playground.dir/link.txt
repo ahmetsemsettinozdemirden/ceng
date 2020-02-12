@@ -1,0 +1,1 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/playground.dir/main.c.o CMakeFiles/playground.dir/taskQueue.c.o CMakeFiles/playground.dir/linkedList.c.o  -o playground 

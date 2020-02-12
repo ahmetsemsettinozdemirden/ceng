@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/sems/Ceng112-DataStructures/homeworks/hw02a/GPSCoord.cpp
+iostream
+-
+cmath
+-
+GPSCoord.h
+/Users/sems/Ceng112-DataStructures/homeworks/hw02a/GPSCoord.h
+Utils.h
+/Users/sems/Ceng112-DataStructures/homeworks/hw02a/Utils.h
+
+/Users/sems/Ceng112-DataStructures/homeworks/hw02a/GPSCoord.h
+Utils.h
+/Users/sems/Ceng112-DataStructures/homeworks/hw02a/Utils.h
+
+/Users/sems/Ceng112-DataStructures/homeworks/hw02a/Utils.cpp
+cmath
+-
+Utils.h
+/Users/sems/Ceng112-DataStructures/homeworks/hw02a/Utils.h
+
+/Users/sems/Ceng112-DataStructures/homeworks/hw02a/Utils.h
+
+/Users/sems/Ceng112-DataStructures/homeworks/hw02a/main.cpp
+iostream
+-
+GPSCoord.h
+/Users/sems/Ceng112-DataStructures/homeworks/hw02a/GPSCoord.h
+

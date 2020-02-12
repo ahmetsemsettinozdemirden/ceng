@@ -1,0 +1,36 @@
+(a)
+
+int a = 112;
+char *s = “112”;
+int *p;
+int **pp;
+
+[ ] p = &a;// Store the address of a in p
+
+[X] *p = &211; // Set a to 211
+
+--> *p = 211;
+
+[ ]  pp = &p; // Store the address of p in pp
+
+[X] *pp = 389; // Set a to 389
+
+--> **pp = 389;
+
+[X ] a = *s[1]; // Store the character code of the second character of s in a
+
+--> a = s[1];
+
+[ ] p = malloc(10*sizeof(int)); // Create a new int array with 10 elements
+
+[X] **(p+4) = a; // Set the value of the 4 th array element to value of a
+
+--> *(p+3) = a;
+
+(b) Output:
+
+L0: ACEGI
+L1: 5 3 1 
+L2: 0
+L3: 0 1 2
+L4: 1 0 2

@@ -1,0 +1,13 @@
+Assignment #1
+Due Date: 26.03.2019
+
+Calculation of Discriminant Functions for 2-D Multivariate Normal Density on the Wine Dataset.
+
+The Wine dataset has three types of classes. Thus, it's a multi-class classification problem.
+As it's 2-D Gaussian and the dataset contains 13 attributes, you should do feature selection first.
+Partition the given dataset as 80% training and 20% test. Using the training partition, 
+for each class, do Maximum Likelihood Estimation (MLE) for 2-D Gaussian parameters: Mean and covariance.
+Plot each 2-D Gaussian.
+To classify the instances in the test set partition, calculate unnormalized posteriors depending on the Gaussians. 
+You can take the class percentages in the dataset as prior probabilities for each class.
+Calculate accuracy.

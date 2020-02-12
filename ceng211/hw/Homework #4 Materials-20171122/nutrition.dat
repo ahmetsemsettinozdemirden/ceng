@@ -1,0 +1,13 @@
+Cornflakes,35,130,Cereals,Food
+Muesli,35,130,Cereals,Food
+Eggs,60,90,DairyProduct,Food
+Milk,250,175,DairyProduct,Drink
+Apple,100,44,Fruit,Food
+Banana,150,107,Fruit,Food
+Salmon,150,220,Fish,Food
+Seabass,150,150,Fish,Food
+Broccoli,27,95,Vegetable,Food
+Spinach,8,100,Vegetable,Food
+Beef,100,300,Meat,Food
+Chicken,220,200,Meat,Food
+Orangejuice,200,150,Fruit,Drink

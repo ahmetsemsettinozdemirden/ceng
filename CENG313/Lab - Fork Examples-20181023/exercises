@@ -1,0 +1,45 @@
+
+for (i = 0; i < n; i++) 
+    fork(); 
+
+/*
+The total number of child processes created is:
+(A) n
+(B) 2^n - 1
+(C) 2^n
+(D) 2^(n+1) - 1;
+*/
+
+// --------------------------------------------------
+
+
+if (fork() == 0) { 
+    a = a + 5; 
+    printf("%d, %p\n", a, &a); 
+} 
+else { 
+    a = a - 5; 
+    printf("%d, %p\n", a, &a); 
+} 
+
+/*
+Let u, v be the values printed by the parent process, and x, y be the values printed by the child process. Which one of the following is TRUE?
+(A) u = x + 10 and v = y
+(B) u = x + 10 and v != y
+(C) u + 10 = x and v = y
+(D) u + 10 = x and v != y
+*/
+
+// --------------------------------------------------
+
+
+fork(); 
+fork() && fork();
+fork() || fork(); 
+  
+printf("forked\n"); 
+
+
+/*
+Predict the output.
+*/

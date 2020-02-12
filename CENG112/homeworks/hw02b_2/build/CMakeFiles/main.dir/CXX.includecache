@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/sems/Ceng112-DataStructures/homeworks/hw02b_2/GpsPathList.cc
+GpsPathList.h
+/Users/sems/Ceng112-DataStructures/homeworks/hw02b_2/GpsPathList.h
+Utils.h
+/Users/sems/Ceng112-DataStructures/homeworks/hw02b_2/Utils.h
+iostream
+-
+
+/Users/sems/Ceng112-DataStructures/homeworks/hw02b_2/GpsPathList.h
+
+/Users/sems/Ceng112-DataStructures/homeworks/hw02b_2/Utils.cc
+cmath
+-
+Utils.h
+/Users/sems/Ceng112-DataStructures/homeworks/hw02b_2/Utils.h
+
+/Users/sems/Ceng112-DataStructures/homeworks/hw02b_2/Utils.h
+
+/Users/sems/Ceng112-DataStructures/homeworks/hw02b_2/main.cc
+iostream
+-
+string
+-
+GpsPathList.h
+/Users/sems/Ceng112-DataStructures/homeworks/hw02b_2/GpsPathList.h
+Utils.h
+/Users/sems/Ceng112-DataStructures/homeworks/hw02b_2/Utils.h
+

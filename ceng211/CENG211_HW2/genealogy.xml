@@ -1,0 +1,231 @@
+<Genealogy>
+	<Advisor name="Leonhard Euler">
+		<Student name="Joseph Louis Lagrange" id="2657453">
+			<Thesis name="UNTITLED_6" year="1754" />
+			<University name="Università di Torino" foundedYear="1404" country="Italy" />
+			<Department name="MATHEMATICS" />
+		</Student>
+	</Advisor>
+	
+	<Advisor name="Joseph Louis Lagrange">
+		<Student name="Jean-Baptiste Joseph Fourier" id="1894536">
+			<Thesis name="Mathematics Subject Classification: 33—Special functions" year="1800" />
+			<University name="École Normale Supérieure" foundedYear="1794" country="France" />
+			<Department name="MATHEMATICS" />
+		</Student>
+	</Advisor>
+	
+	<Advisor name="Jean-Baptiste Joseph Fourier"> <!-- Multiple Advisor -->
+		<Student name="Gustav Peter Lejeune Dirichlet" id="2524641">
+			<Thesis name="Partial Results on Fermat's Last Theorem, Exponent 5" year="1827" />
+			<University name="Rheinische Friedrich-Wilhelms-Universität Bonn" foundedYear="1818" country="Germany" />
+			<Department name="MATHEMATICS" />
+		</Student>
+	</Advisor>
+	
+	<Advisor name="Simeon Denis Poisson"> <!-- Multiple Advisor -->
+		<Student name="Gustav Peter Lejeune Dirichlet" id="2524641">
+			<Thesis name="Partial Results on Fermat's Last Theorem, Exponent 5" year="1827" />
+			<University name="Rheinische Friedrich-Wilhelms-Universität Bonn" foundedYear="1818" country="Germany" />
+			<Department name="MATHEMATICS" />
+		</Student>
+	</Advisor>
+	
+	<Advisor name="Gustav Peter Lejeune Dirichlet">
+		<Student name="Rudolf Otto Sigismund Lipschitz" id="5647802">
+			<Thesis name="Determinatio status magnetici viribus inducentibus commoti in ellipsoide" year="1853" />
+			<University name="Universität Berlin" foundedYear="1811" country="Germany"/>
+			<Department name="PHYSICS" />
+		</Student>
+	</Advisor>
+	
+	<Advisor name="Rudolf Otto Sigismund Lipschitz"> <!-- Multiple Advisor -->
+		<Student name="C. Felix (Christian) Klein" id="2013036">
+			<Thesis name="Über die Transformation der allgemeinen Gleichung des zweiten Grades zwischen Linien-Koordinaten auf eine kanonische Form" year="1868" />
+			<University name="Rheinische Friedrich-Wilhelms-Universität Bonn" foundedYear="1818" country="Germany"/>
+			<Department name="MATHEMATICS" />
+		</Student>
+	</Advisor>
+	
+	<Advisor name="Julius Plücker"> <!-- Multiple Advisor -->
+		<Student name="C. Felix (Christian) Klein" id="2013036">
+			<Thesis name="Über die Transformation der allgemeinen Gleichung des zweiten Grades zwischen Linien-Koordinaten auf eine kanonische Form" year="1868" />
+			<University name="Rheinische Friedrich-Wilhelms-Universität Bonn" foundedYear="1818" country="Germany" />
+			<Department name="MATHEMATICS" />
+		</Student>
+	</Advisor>
+	
+	<Advisor name="C. Felix (Christian) Klein"> 
+		<Student name="C. L. Ferdinand (Carl Louis) Lindemann" id="3030321"> <!-- Multiple students -->
+			<Thesis name="Über unendlich kleine Bewegungen und über Kraftsysteme bei allgemeiner projektivischer Maßbestimmung" year="1873" />
+			<University name="Friedrich-Alexander-Universität Erlangen-Nürnberg" foundedYear="1743" country="Germany" />
+			<Department name="PHYSICS" />
+		</Student>
+		<Student name="Philipp Furtwängler" id="7456312">
+			<Thesis name="Zur Theorie der in Linearfaktoren zerlegbaren ganzzahlingen ternären kubischen Formen" year="1896" />
+			<University name="Georg-August-Universität Göttingen" foundedYear="1734" country="Germany"/>
+			<Department name="MATHEMATICS" />
+		</Student>
+	</Advisor>
+	
+	<Advisor name="Christian Ludwig Gerling">
+		<Student name="Julius Plücker" id="5056068">
+			<Thesis name="Generalem analyeseos applicationem ad ea quae geometriae altioris et mechanicae basis et fundamenta sunt e serie Tayloria deducit" year="1823" />
+			<University name="Philipps-Universität Marburg" foundedYear="1527" country="Germany" />
+			<Department name="MATHEMATICS" />
+		</Student>
+	</Advisor>
+	
+	<Advisor name="Carl Friedrich Gauß">
+		<Student name="Christian Ludwig Gerling" id="6412597">
+			<Thesis name="Methodi proiectionis orthographicae usum ad calculos parallacticos facilitandos explicavit simulque eclipsin solarem die" year="1812" />
+			<University name="Georg-August-Universität Göttingen" foundedYear="1734" country="Germany" />
+			<Department name="MATHEMATICS" />
+		</Student>
+	</Advisor>
+	
+	<Advisor name="Johann Friedrich Pfaff">
+		<Student name="Carl Friedrich Gauß" id="1012023">
+			<Thesis name="Demonstratio nova theorematis omnem functionem algebraicam rationalem integram unius variabilis in factores reales primi vel secundi gradus resolvi posse" year="1799" />
+			<University name="Universität Helmstedt" foundedYear="1576" country="Germany" />
+			<Department name="MATHEMATICS" />
+		</Student>
+	</Advisor>
+	
+	<Advisor name="John Archibald Wheeler">
+		<Student name="Richard Phillips Feynman" id="8529630">
+			<Thesis name="The Principle of Least Action in Quantum Mechanics" year="1942" />
+			<University name="Princeton University" foundedYear="1746" country="United States of America" />
+			<Department name="PHYSICS" />
+		</Student>
+	</Advisor>
+	
+	<Advisor name="Karl Ferdinand Herzfeld">
+		<Student name="John Archibald Wheeler" id="1479635">
+			<Thesis name="Theory of the Dispersion and Absorption of Helium" year="1933" />
+			<University name="The Johns Hopkins University" foundedYear="1876" country="United States of America" />
+			<Department name="CHEMISTRY" />
+		</Student>
+	</Advisor>
+	
+	<Advisor name="Friedrich Hasenöhrl">
+		<Student name="Karl Ferdinand Herzfeld" id="5648230">
+			<Thesis name="UNTITLED_5" year="1914" /><!-- different theses for same student -->
+			<University name="Universität Wien" foundedYear="1365" country="Austria"/>	
+			<Department name="PHYSICS" />
+		</Student>
+	</Advisor>
+	
+	<Advisor name="Arnold Johannes Wilhelm Sommerfeld">
+		<Student name="Karl Ferdinand Herzfeld" id="5648230">
+			<Thesis name="UNTITLED_4" year="1914" /><!-- different theses for same student -->
+			<University name="Universität Wien" foundedYear="1365" country="Austria"/>
+			<Department name="PHYSICS" />
+		</Student>
+	</Advisor>
+	
+	<Advisor name="C. L. Ferdinand (Carl Louis) Lindemann">
+		<Student name="Arnold Johannes Wilhelm Sommerfeld" id="4796136">
+			<Thesis name="Die willkürlichen Functionen in der mathematischen Physik" year="1891" />
+			<University name="Universität Königsberg" foundedYear="1544" country="Russia" />
+			<Department name="PHYSICS" />
+		</Student>
+	</Advisor>
+	
+	<Advisor name="Alonzo Church">
+		<Student name="Alan Mathison Turing" id="7391645">
+			<Thesis name="Systems of Logic Based on Ordinals" year="1938" />
+			<University name="Princeton University" foundedYear="1746" country="United States of America" />
+			<Department name="COMPUTER_SCIENCE" />
+		</Student>
+	</Advisor>
+	
+	<Advisor name="Oswald Veblen">
+		<Student name="Alonzo Church" id="2010302">
+			<Thesis name="Alternatives to Zermelo's Assumption" year="1927" />
+			<University name="Princeton University" foundedYear="1746" country="United States of America" />
+			<Department name="COMPUTER_SCIENCE" />
+		</Student>
+	</Advisor>
+	
+	<Advisor name="E. H. (Eliakim Hastings) Moore">
+		<Student name="Oswald Veblen" id="1054962">
+			<Thesis name="A System of Axioms for Geometry" year="1903" />
+			<University name="The University of Chicago" foundedYear="1890" country="United States of America" />
+			<Department name="MATHEMATICS" />
+		</Student>
+	</Advisor>
+	
+	<Advisor name="H. A. (Hubert Anson) Newton">
+		<Student name="E. H. (Eliakim Hastings) Moore" id="8080967">
+			<Thesis name="Extensions of Certain Theorems of Clifford and Cayley in the Geometry of n Dimensions" year="1885" />
+			<University name="Yale University" foundedYear="1701" country="United States of America" />
+			<Department name="MATHEMATICS" />
+		</Student>
+	</Advisor>
+	
+	<Advisor name="Michel Chasles">
+		<Student name="H. A. (Hubert Anson) Newton" id="6423780">
+			<Thesis name="UNTITLED_3" year="1850" />
+			<University name="Yale University" foundedYear="1701" country="United States of America" />
+			<Department name="MATHEMATICS" />
+		</Student>
+	</Advisor>
+	
+	<Advisor name="Simeon Denis Poisson">
+		<Student name="Michel Chasles" id="2255997">
+			<Thesis name="UNTITLED_2" year="1814" />
+			<University name="École Polytechnique" foundedYear="1794" country="France" />
+			<Department name="MATHEMATICS" />
+		</Student>
+	</Advisor>
+	
+	<Advisor name="Helmut Hasse">
+		<Student name="Cahit Arf" id="3535410">
+			<Thesis name="UNTITLED_1" year="1938" />
+			<University name="Georg-August-Universität Göttingen" foundedYear="1734" country="Germany" />
+			<Department name="MATHEMATICS" />
+		</Student>
+	</Advisor>
+	
+	<Advisor name="Kurt Hensel">
+		<Student name="Helmut Hasse" id="5263114">
+			<Thesis name="Über die Darstellbarkeit von Zahlen durch quadratische Formen im Körper der rationalen Zahlen" year="1922" />
+			<University name="Philipps-Universität Marburg" foundedYear="1527" country="Germany" />
+			<Department name="MATHEMATICS" />
+		</Student>
+	</Advisor>
+	
+	<Advisor name="Leopold Kronecker">
+		<Student name="Kurt Hensel" id="9078845">
+			<Thesis name="Arithmetische Untersuchungen über Diskriminaten und ihre außerwesentlichen Teiler" year="1884" />
+			<University name="Universität Berlin" foundedYear="1811" country="Germany" />
+			<Department name="MATHEMATICS" />
+		</Student>
+	</Advisor>
+	
+	<Advisor name="Gustav Peter Lejeune Dirichlet"><!-- Multiple Advisor -->
+		<Student name="Leopold Kronecker" id="9764588">
+			<Thesis name="De unitatibus complexis" year="1845" />
+			<University name="Universität Berlin" foundedYear="1811" country="Germany" />
+			<Department name="MATHEMATICS" />
+		</Student>
+	</Advisor>
+	
+	<Advisor name="Johann Franz Friedrich Encke"><!-- Multiple Advisor -->
+		<Student name="Leopold Kronecker" id="9764588">
+			<Thesis name="De unitatibus complexis" year="1845" />
+			<University name="Universität Berlin" foundedYear="1811" country="Germany" />
+			<Department name="MATHEMATICS" />
+		</Student>
+	</Advisor>
+
+	<Advisor name="Carl Friedrich Gauß">
+		<Student name="Johann Franz Friedrich Encke" id="1455520">
+			<Thesis name="Mathematics Subject Classification: 85—Astronomy and astrophysics" year="1825" />
+			<University name="Universität Berlin" foundedYear="1811" country="Germany" />
+			<Department name="PHYSICS" />
+		</Student>
+	</Advisor>
+	
+</Genealogy>

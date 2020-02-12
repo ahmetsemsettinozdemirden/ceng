@@ -1,0 +1,27 @@
+isil@isil:~$ sudo vpnc
+[sudo] password for isil: 
+Enter IPSec gateway address: 160.75.120.250
+Enter IPSec ID for 160.75.120.250: UYBHM-Users
+Enter IPSec secret for UYBHM-Users@160.75.120.250: 
+Enter username for 160.75.120.250: ioz
+Enter password for ioz@160.75.120.250: 
+VPNC started in background (pid: 6335)...
+
+isil@isil:~$ scp Downloads/vectorAdd.cu   ioz@sariyer.uhem.itu.edu.tr:
+ioz@sariyer.uhem.itu.edu.tr's password: 
+vectorAdd.cu                                  100% 5625     5.5KB/s   00:00    
+isil@isil:~$ 
+
+isil@isil:~$ ssh -l ioz sariyer.uhem.itu.edu.tr
+ioz@sariyer.uhem.itu.edu.tr's password: 
+[ioz@sariyer ~ ]$
+
+http://wiki.uhem.itu.edu.tr/w/index.php/Sar%C4%B1yer_sistemine_i%C5%9F_vermek#GPU_.C4.B0.C5.9Fi_.C3.87al.C4.B1.C5.9Ft.C4.B1rmak
+
+[ioz@sariyer ~ ]$ srun -A ippgd1 -p gpuq -n 1 --pty bash -i
+[ioz@f001 ~ 156159]$ module load cuda/cuda-8.0
+[ioz@f001 ~ 156159]$ nvcc vectorAdd.cu -o vectorAdd
+[ioz@f001 ~ 156159]$ exit
+[ioz@sariyer ~ ]$ sbatch gpujob.sh
+[ioz@sariyer ~ ]$ isler
+

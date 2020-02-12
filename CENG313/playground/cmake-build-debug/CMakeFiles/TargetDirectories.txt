@@ -1,0 +1,3 @@
+/Users/sems/CLionProjects/playground/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/sems/CLionProjects/playground/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/sems/CLionProjects/playground/cmake-build-debug/CMakeFiles/playground.dir

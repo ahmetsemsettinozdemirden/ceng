@@ -1,0 +1,3 @@
+/Users/sems/Ceng112-DataStructures/homeworks/hw02a/build/CMakeFiles/rebuild_cache.dir
+/Users/sems/Ceng112-DataStructures/homeworks/hw02a/build/CMakeFiles/edit_cache.dir
+/Users/sems/Ceng112-DataStructures/homeworks/hw02a/build/CMakeFiles/main.dir
